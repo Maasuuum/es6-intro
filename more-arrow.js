@@ -23,4 +23,4 @@ const doMath = (x, y, z) => {
     return result;
 }
 const value = doMath(2, 8, 10);
-console.log(value);
+console.log(value); 
