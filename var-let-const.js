@@ -9,3 +9,25 @@ console.log(rich);
 let count = 0;
 count = count + 10;
 console.log(count);
+
+const numbers = [23, 4, 23, 12, 56];
+numbers[1] = 56;
+numbers.push(8, 9);
+console.log(numbers);
+
+// object
+let student = {
+    name: 'Bokul',
+    age: 26
+}
+// student = {name:'Bokul Ful'}
+student.name ='moyur konthi';
+console.log(student);
+
+// loop
+let sum = 0;
+for(let i = 0; i < 10; i++){
+    const num = i;
+    sum = sum + num;
+}
+console.log(sum);
