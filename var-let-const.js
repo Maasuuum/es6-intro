@@ -1,7 +1,7 @@
-// loop
-let sum = 0;
-for(let i = 0; i < 10; i++){
-    const num = i;
-    sum = sum + num; 
-}
-console.log(sum);
+// var : no reason to use var
+// let : allow it to reassign
+// const : do not allow it to reassign
+
+const money = 25;
+const rich = money + 25;
+console.log(rich);
